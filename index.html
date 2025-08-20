@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Memory</title>
+</head>
+<body>
+    <main>
+        <div id="odpowiedzi">
+            <h1 id="tekstDoZmiany">Twoje kolory:</h1>
+            <div id="wybranyKolor1" class="wK"></div>
+            <div id="wybranyKolor2" class="wK"></div>
+            <div id="wybranyKolor3" class="wK"></div>
+            <div id="wybranyKolor4" class="wK"></div>
+            <div id="wybranyKolor5" class="wK"></div>
+            <hr><h1>Poprawność:</h1>
+            <div id="poprawnoscKoloru1" class="pK"></div>
+            <div id="poprawnoscKoloru2" class="pK"></div>
+            <div id="poprawnoscKoloru3" class="pK"></div>
+            <div id="poprawnoscKoloru4" class="pK"></div>
+            <div id="poprawnoscKoloru5" class="pK"></div>
+            <hr><h1>Ostatnie kolory:</h1>
+            <div id="ostatnieKolory1" class="oK"></div>
+            <div id="ostatnieKolory2" class="oK"></div>
+            <div id="ostatnieKolory3" class="oK"></div>
+            <div id="ostatnieKolory4" class="oK"></div>
+            <div id="ostatnieKolory5" class="oK"></div>
+        </div>
+        <div id="przyciski">
+            <button id="usunOstatni">Usuń ostatni</button>
+            <button id="sprawdz">Sprawdź</button>
+            <ul>
+                <li style="color: greenyellow;">Dobre miejsce</li>
+                <li style="color: gold;">Złe miejce</li>
+                <li style="color: red;">Brak koloru</li>
+            </ul>
+            <h1>Liczba żyć: <span id="zycia"></span></h1>
+            <button id="nowaGra">Nowa gra</button>
+            <button id="restart">Restart</button>
+        </div>
+        <div id="kolekcjaKolorow">
+            <div class="kolor-container" id="kolor1"></div>
+            <div class="kolor-container" id="kolor2"></div>
+            <div class="kolor-container" id="kolor3"></div>
+            <div class="kolor-container" id="kolor4"></div>
+            <div class="kolor-container" id="kolor5"></div>
+            <div class="kolor-container" id="kolor6"></div>
+            <div class="kolor-container" id="kolor7"></div>
+            <div class="kolor-container" id="kolor8"></div>
+        </div>
+    </main>
+    <script src="MasterMindJS.js"></script>
+</body>
+</html>
